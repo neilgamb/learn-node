@@ -767,7 +767,7 @@ label {
   text-align: right; }
   .store__hero:before {
     display: block;
-    content: '';
+    content: "";
     position: absolute;
     height: 100%;
     width: 100%;
