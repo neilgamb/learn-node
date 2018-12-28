@@ -1,3 +1,5 @@
-import '../sass/style.scss';
+import "../sass/style.scss";
+import { $, $$ } from "./modules/bling";
+import autoComplete from "./modules/autocomplete";
 
-import { $, $$ } from './modules/bling';
+autoComplete($("#address"), $("#lat"), $("#lng"));
